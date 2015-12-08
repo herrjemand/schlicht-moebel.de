@@ -89,3 +89,14 @@ body {
     padding-top: 100vh;
     height: 100vh;
 }
+
+.schlicht-main-title {
+    position: absolute; 
+    top: 33vh;
+    left: 5vw;
+}
+
+.schlicht-main-title > h1 {
+    color: white;
+    font-size: 10rem;
+}
