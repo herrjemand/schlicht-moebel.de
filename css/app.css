@@ -1,0 +1,84 @@
+.inner-wrap {
+    width: auto;
+}
+
+.move-right .inner-wrap {
+    -ms-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    /*margin-left: 5rem;*/
+}
+
+.left-off-canvas-menu {
+    -ms-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    position: fixed;
+    width: 0;
+    height: 100%; 
+}
+
+.move-right .left-off-canvas-menu {
+    width: 3.5rem; 
+}
+
+.move-right .exit-off-canvas {
+    display: none; 
+}
+
+.left-off-canvas-toggle {
+    display: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 3rem;
+    color: #333;
+    transition: all .25s ease-in-out; 
+}
+
+.left-off-canvas-toggle:focus {
+    color: #333; 
+}
+
+.left-off-canvas-toggle:hover {
+    color: #8c8c8c;
+    transition: all .25s ease-in-out; 
+}
+
+.item-block {
+    /*margin-bottom: 1rem; */
+    margin-left: 3.5rem;
+}
+
+.icon-bar.vertical {
+    width: 100%;
+}
+
+.row {
+    max-width: initial;
+}
+
+.schlicht-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.schlicht-img > img {
+    width: 100%;
+}
+
+.schlicht-img {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+}
+
+body {
+    background: grey;
+}
