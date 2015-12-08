@@ -24,8 +24,12 @@
     height: 100%; 
 }
 
+.off-canvas-wrap.move-right {
+    min-height: initial; 
+}
+
 .move-right .left-off-canvas-menu {
-    width: 3.5rem; 
+    width: 3.5rem;
 }
 
 .move-right .exit-off-canvas {
