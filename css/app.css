@@ -82,3 +82,10 @@
 body {
     background: grey;
 }
+
+.schlicht-main {
+    background-image: url('/img/lamp.jpg');
+    background-size: cover;
+    padding-top: 100vh;
+    height: 100vh;
+}
