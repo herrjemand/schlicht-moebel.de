@@ -54,11 +54,6 @@
     transition: all .25s ease-in-out; 
 }
 
-.item-block {
-    /*margin-bottom: 1rem; */
-    /*margin-left: 3.5rem;*/
-}
-
 .icon-bar.vertical {
     width: 100%;
 }
@@ -129,6 +124,19 @@ body {
     color: white;
 }
 
+.schlicht-titlebox {
+    padding: 1rem;
+}
+
+.schlicht-titlebox > .innercontainer{
+    background: black;
+    padding: 0.5rem;
+}
+
+.innercontainer > * {
+    color: white;
+}
+
 /* --- Small --- */
 @media only screen {
     .schlicht-content {
@@ -169,4 +177,13 @@ body {
     .schlicht-main-title > h1 {
         font-size: 10rem;
     }
+}
+
+
+.tabs-content > .content {
+    padding: 0;
+}
+
+.tabs-content {
+    margin-bottom: 0;
 }
