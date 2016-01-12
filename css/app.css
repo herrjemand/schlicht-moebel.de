@@ -85,8 +85,8 @@ body {
 .schlicht-img{
     width: 100%;
     padding-top: 100%;
-    background-image: url('/img/chair_side.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .schlicht-main-pre {
