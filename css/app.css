@@ -193,5 +193,9 @@ p {
 }
 
 .icon-bar, .schlicht-quote {
-    background: #F07F0A;
+    background: #231F20
+}
+
+.schlicht-icon, .icon-bar > * i{
+     color: #F07F0A;
 }
