@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<div class="large-6 medium-6 small-12 columns schlicht-block">
+
+    {% for image in page.images %}
+        <div class="large-12 medium-12 small-12 columns schlicht-block">
+            <div  class="schlicht-img" style="background-image: url('/img/{{ image }}')"></div>
+        </div>
+    {% endfor %}
+
+</div>
+
+<div class="large-6 medium-6 small-12 columns schlicht-block">
+
+    <div class="small-12 medium-12 large-12 columns schlicht-titlebox">
+        <div class="innercontainer">
+            <h2>{{ page.title | upcase }}</h2>
+        </div>
+    </div>
+    
+    <div class="large-12 medium-12 small-12 columns">
+        <h5>
+            {{ page.description }}
+        </h5>
+    </div>
+
+    <hr>  
+
+    <div class="large-12 medium-12 small-12 columns">
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>Material:</h5>
+        </div>
+
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>{{ page.material }}</h5>
+        </div>
+    </div>
+
+    <div class="large-12 medium-12 small-12 columns">
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>Maße (L x B x H mm)</h5>
+        </div>
+
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>{{ page.dimensions }}</h5>
+        </div>
+    </div>
+
+    <div class="large-12 medium-12 small-12 columns">
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>Oberflächenvergütung</h5>
+        </div>
+
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>{{ page.treatment }}</h5>
+        </div>
+    </div>
+
+    <div class="large-12 medium-12 small-12 columns">
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>Farbe</h5>
+        </div>
+
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>{{ page.colours }}</h5>
+        </div>
+    </div>
+    
+    <hr>
+
+    <div class="large-12 medium-12 small-12 columns">
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>Designers</h5>
+        </div>
+
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>{{ page.designers }}</h5>
+        </div>
+    </div>
+
+    <div class="large-12 medium-12 small-12 columns">
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>Preis</h5>
+        </div>
+
+        <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
+            <h5>{{ page.price }}</h5>
+        </div>
+    </div>
+    
+</div>
