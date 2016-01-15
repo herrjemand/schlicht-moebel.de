@@ -133,6 +133,10 @@ body {
     padding: 0.5rem;
 }
 
+.schlicht-titlebox > * {
+    word-break: break-all;
+}
+
 .innercontainer > * {
     color: white;
 }
