@@ -1,15 +1,43 @@
 <!doctype html>
 <html class="no-js" lang="en">
+    
+    <!-- #IMPORT HEAD -->
     {% include head.html %}
+
     <body>
 
-        {% include sidebar.html %}
+        <div class="off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+                
+                <!-- OFF CANVAS -->
+                <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+                    <div class="off-canvas-container">
+                        
+                        <!-- #IMPORT OFF CANVAS -->
+                        {% include offcanvas.html %}
 
-        <div class="medium-12 small-12 large-12 schlicht-content">
-            {{ content }}
+                    </div>
+                </div>
+
+                <div class="off-canvas-content" data-off-canvas-content>
+
+                    <!-- #IMPORT SIDEBAR -->
+                    {% include sidebar.html %}
+
+                    <div class="medium-12 small-12 large-12 schlicht-content">
+
+                        <!-- #IMPORT CONTENT -->
+                        {{ content }}
+                    </div>  
+
+                </div>
+            </div>
         </div>
 
-
+        <!-- #IMPORT SCRIPTS -->
         {% include scripts.html %}
+
     </body>
 </html>
+
+

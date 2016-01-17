@@ -196,10 +196,34 @@ p {
     margin: 0;
 }
 
-.icon-bar, .schlicht-quote {
+.schlicht-quote,
+.left-off-canvas-menu,
+.off-canvas {
     background: #231F20
 }
 
+.left-off-canvas-menu {
+    z-index: 9999;
+}
+
+.js-off-canvas-exit {
+    background: none;
+}
+
+.off-canvas {   
+    height: 100vh;
+}
+
+.off-canvas-container {
+    color: white;
+    padding: 1rem;
+}
+
+.icon-bar {
+    padding: 0.75em;
+}
+
 .schlicht-icon, .icon-bar > * i{
-     color: #F07F0A;
+    color: #F07F0A;
+    font-size: 3em; 
 }
