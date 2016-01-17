@@ -134,7 +134,7 @@ body {
 }
 
 .schlicht-titlebox > * {
-    word-break: break-all;
+    word-break: normal;
 }
 
 .innercontainer > * {
