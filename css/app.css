@@ -94,7 +94,6 @@ body {
 }
 
 .schlicht-main {
-    background-image: url('/img/main.png');
     background-size: cover;
     padding-top: 100vh;
     height: 100vh;
@@ -148,7 +147,8 @@ body {
     }
     
     .schlicht-main {
-        background-position: 50% 50%;
+        background-image: url('/img/phone-main.png');
+        background-position-x: 0;
     }
 
     .schlicht-main-title > h1 {
@@ -164,7 +164,8 @@ body {
     }
 
     .schlicht-main {
-        background-position: 50% 50%;
+        background-image: url('/img/phone-main.png');
+        background-position-x: 0;
     }
 
     .schlicht-main-title > h1 {
@@ -176,6 +177,10 @@ body {
 @media only screen and (min-width: 64.0625em) {
     .schlicht-content {
         padding-left: 3.5rem;
+    }
+    
+    .schlicht-main {
+        background-image: url('/img/main.png');
     }
 
     .schlicht-main-title > h1 {
