@@ -14,8 +14,17 @@ lang:
     de:
         page:
             material    : Material
-            dimensions  : Maße (L x B x H mm)
+            size        : Maße (L x B x H mm)
             treatment   : Veredelung
             colours     : Farbe
             designers   : Designers
             price       : Preis
+
+    en:
+        page:
+            material    : Material
+            size        : Size (L x W x H mm)
+            treatment   : Treatment
+            colours     : Colours
+            designers   : Designers
+            price       : Price
