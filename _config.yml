@@ -18,6 +18,7 @@ lang:
             treatment   : Veredelung
             colours     : Farbe
             designers   : Designers
+            advisors    : Vorentwicklung
             price       : Preis
 
     en:
@@ -27,4 +28,5 @@ lang:
             treatment   : Treatment
             colours     : Colours
             designers   : Designers
+            advisors    : Advisors
             price       : Price
