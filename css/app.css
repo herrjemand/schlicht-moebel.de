@@ -181,6 +181,8 @@ body {
     
     .schlicht-main {
         background-image: url('/img/main.png');
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .schlicht-main-title > h1 {
