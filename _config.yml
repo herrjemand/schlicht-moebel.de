@@ -6,27 +6,32 @@
 # url: ""
 # twitter_username: ""
 # github_username:  jekyll
-
+lang    : de
 # Build settings
 markdown: kramdown
 
-lang:
+locale:
     de:
-        page:
-            material    : Material
-            size        : Maße (L x B x H mm)
-            treatment   : Veredelung
-            colours     : Farbe
-            designers   : Designers
-            advisors    : Vorentwicklung
-            price       : Preis
+        material    : Material
+        size        : Maße (L x B x H mm)
+        treatment   : Veredelung
+        colours     : Farbe
+        designers   : Designers
+        advisors    : Vorentwicklung
+        price       : Preis
+        contact     : Kontakt
+        imprint     : Impressum
+        moto        : "Schlicht, bedeutet, sich auf das Wesentliche beschränken. Rein. Pur. Ungekünstelt und bescheiden. <br>Möbel, die für sich sprechen, die keiner großen Worte bedürfen: <br>Schlicht."
+
 
     en:
-        page:
-            material    : Material
-            size        : Size (L x W x H mm)
-            treatment   : Treatment
-            colours     : Colours
-            designers   : Designers
-            advisors    : Advisors
-            price       : Price
+        material    : Material
+        size        : Size (L x W x H mm)
+        treatment   : Treatment
+        colours     : Colours
+        designers   : Designers
+        advisors    : Advisors
+        price       : Price
+        contact     : Contact
+        imprint     : Legal
+        moto        : Lorem ipsum dolor sit amet
