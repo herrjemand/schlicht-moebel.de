@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.lang != site.lang and page.lang != null %}
+    {% assign language = page.lang %}
+{% else %}
+    {% assign language = site.lang %}
+{% endif %}
+
 <div class="large-6 medium-6 small-12 columns schlicht-block">
 
     {% for image in page.images %}
@@ -30,7 +36,7 @@ layout: default
 
     <div class="large-12 medium-12 small-12 columns">
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
-            <h5>{{ site.locale[page.lang].material }}:</h5>
+            <h5>{{ site.locale[language].material }}:</h5>
         </div>
 
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
@@ -40,7 +46,7 @@ layout: default
 
     <div class="large-12 medium-12 small-12 columns">
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
-            <h5>{{ site.locale[page.lang].size }}:</h5>
+            <h5>{{ site.locale[language].size }}:</h5>
         </div>
 
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
@@ -50,7 +56,7 @@ layout: default
 
     <div class="large-12 medium-12 small-12 columns">
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
-            <h5>{{ site.locale[page.lang].treatment }}:</h5>
+            <h5>{{ site.locale[language].treatment }}:</h5>
         </div>
 
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
@@ -60,7 +66,7 @@ layout: default
 
     <div class="large-12 medium-12 small-12 columns">
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
-            <h5>{{ site.locale[page.lang].colours }}:</h5>
+            <h5>{{ site.locale[language].colours }}:</h5>
         </div>
 
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
@@ -72,7 +78,7 @@ layout: default
 
     <div class="large-12 medium-12 small-12 columns">
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
-            <h5>{{ site.locale[page.lang].designers }}:</h5>
+            <h5>{{ site.locale[language].designers }}:</h5>
         </div>
 
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
@@ -83,7 +89,7 @@ layout: default
     {% if page.advisors %}
     <div class="large-12 medium-12 small-12 columns">
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
-            <h5>{{ site.locale[page.lang].advisors }}:</h5>
+            <h5>{{ site.locale[language].advisors }}:</h5>
         </div>
 
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
@@ -94,7 +100,7 @@ layout: default
 
     <div class="large-12 medium-12 small-12 columns">
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">
-            <h5>{{ site.locale[page.lang].price }}:</h5>
+            <h5>{{ site.locale[language].price }}:</h5>
         </div>
 
         <div class="small-6 medium-6 large-6 columns schlicht-titlebox">

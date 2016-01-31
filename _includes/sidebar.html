@@ -1,3 +1,7 @@
+{% if page.lang != site.lang and page.lang != null %}
+    {% assign notGreadyLanguage = page.lang %}
+{% endif %}
+
 <div class="off-canvas-wrap move-right" data-offcanvas>
     <div class="inner-wrap">
 
@@ -5,7 +9,7 @@
         <aside class="left-off-canvas-menu">
             
             <div class="icon-bar vertical five-up">
-                <a class="item" href="/">
+                <a class="item" href="/{{ notGreadyLanguage }}">
                     <label>
                         <span class="schlicht-icon">S</span>
                     </label>

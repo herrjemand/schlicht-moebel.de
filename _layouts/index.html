@@ -1,0 +1,56 @@
+---
+layout  : default
+---
+{% if page.lang != site.lang and page.lang != null %}
+    {% assign notGreadyLanguage = page.lang %}
+{% endif %}
+
+
+{% if page.lang != site.lang and page.lang != null %}
+    {% assign language = page.lang %}
+{% else %}
+    {% assign language = site.lang %}
+{% endif %}
+
+<div class="medium-12 small-12 columns schlicht-block schlicht-main-pre schlicht-main"></div>
+
+<div class="row">
+    <div class="medium-6 small-12 columns schlicht-block">
+        <a href="/ben/{{ notGreadyLanguage }}">
+            <div  class="schlicht-img" style="background-image: url('/img/BEN/chair-leather-top.jpg')"></div>
+        </a>
+    </div>
+
+    <div class="medium-6 small-12 columns schlicht-block">
+        <a href="/felt-chair/{{ notGreadyLanguage }}">
+            <div  class="schlicht-img" style="background-image: url('/img/FELT-CHAIR/unfolded-close.jpg')"></div>
+        </a>
+    </div>
+</div>
+<div class="row">
+    <div class="medium-12 small-12 large-12 text-center schlicht-quote">
+        <p>{{ site.locale[language].moto }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="medium-6 small-12 columns schlicht-block">
+            <a href="/chain-chair/{{ notGreadyLanguage }}">
+                <div  class="schlicht-img" style="background-image: url('/img/CHAIN-CHAIR/Detail2.jpg')"></div>
+            </a>
+    </div>
+    <div class="medium-6 small-12 columns schlicht-block">
+            <a href="/lea/{{ notGreadyLanguage }}">
+                <div  class="schlicht-img" style="background-image: url('/img/LEA/close-top.jpg')"></div>
+            </a>
+    </div>
+    <div class="medium-6 small-12 columns schlicht-block">
+            <a href="/plicaro-lc/{{ notGreadyLanguage }}">
+                <div  class="schlicht-img" style="background-image: url('/img/PLICARO-LC/main.jpg')"></div>
+            </a>
+    </div>
+    <div class="medium-6 small-12 columns schlicht-block">
+            <a href="/shtool/{{ notGreadyLanguage }}">
+                <div  class="schlicht-img" style="background-image: url('/img/SHTOOL/Shtool_Detail_1.jpg')"></div>
+            </a>
+    </div>
+</div>

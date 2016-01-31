@@ -1,23 +1,34 @@
+{% if page.lang != site.lang and page.lang != null %}
+    {% assign notGreadyLanguage = page.lang %}
+{% endif %}
+
+
+{% if page.lang != site.lang and page.lang != null %}
+    {% assign language = page.lang %}
+{% else %}
+    {% assign language = site.lang %}
+{% endif %}
+
 <ul class="mobile-ofc vertical menu">
     <li>
         <ul class="submenu menu vertical" data-submenu="">
-            <li><a href="/ben">BEN</a></li>
-            <li><a href="/chain-chair">CHAIN CHAIR</a></li>
-            <li><a href="/felt-chair">FELT CHAIR</a></li>
-            <li><a href="/lea">LEA</a></li>
-            <li><a href="/plicaro-lc">PLICARO LC</a></li>
-            <li><a href="/shtool">SHTOOL</a></li>
+            <li><a href="/ben/{{ notGreadyLanguage }}">BEN</a></li>
+            <li><a href="/chain-chair/{{ notGreadyLanguage }}">CHAIN CHAIR</a></li>
+            <li><a href="/felt-chair/{{ notGreadyLanguage }}">FELT CHAIR</a></li>
+            <li><a href="/lea/{{ notGreadyLanguage }}">LEA</a></li>
+            <li><a href="/plicaro-lc/{{ notGreadyLanguage }}">PLICARO LC</a></li>
+            <li><a href="/shtool/{{ notGreadyLanguage }}">SHTOOL</a></li>
         </ul>
     </li>
 </ul>
 
 <hr>
 
-<p>{{ site.locale[page.lang].contact }}: <a href="mailto:info-schlicht@kisd.de">info-schlicht@kisd.de</a></p>
+<p>{{ site.locale[language].contact }}: <a href="mailto:info-schlicht@kisd.de">info-schlicht@kisd.de</a></p>
 
 <hr>  
 
-<h4>{{ site.locale[page.lang].imprint }}</h4>
+<h4>{{ site.locale[language].imprint }}</h4>
 <p>Wolfgang Laubersheimer<br>
 Ubierring 40, 50678 Köln<br>
 +49-221-724844<br>

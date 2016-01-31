@@ -6,6 +6,7 @@
 # url: ""
 # twitter_username: ""
 # github_username:  jekyll
+
 lang    : de
 # Build settings
 markdown: kramdown
