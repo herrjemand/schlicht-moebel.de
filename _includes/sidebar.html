@@ -18,7 +18,19 @@
                     <i class="fi-list"></i>
                     <label></label>
                 </a>
-                
+                {% if page.lang != site.lang and page.lang != null %}
+                    <a class="item" href="../">
+                        <label>
+                            <span class="schlicht-icon schlicht-lang">{{ site.lang | upcase}}</span>
+                        </label>
+                    </a>
+                {% else %}
+                    <a class="item" href="en/">
+                        <label>
+                            <span class="schlicht-icon schlicht-lang">{{ "EN" | upcase}}</span>
+                        </label>
+                    </a>
+                {% endif %}
             </div>
             
         </aside>
