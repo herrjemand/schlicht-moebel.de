@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/niemand
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://schlicht-moebel.de
+  * I am niemand (https://keybase.io/niemand) on keybase.
+  * I have a public key with fingerprint 3976 CF4E 0153 0F41 4EE4  59C2 3BDE 7100 9D22 0C16
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a6211dedc1400a1fa2e6109f4023f61d9e0f142f9c8b29b80481fb5b2b4e9a260a",
+            "fingerprint": "3976cf4e01530f414ee459c23bde71009d220c16",
+            "host": "keybase.io",
+            "key_id": "3bde71009d220c16",
+            "kid": "0101a6211dedc1400a1fa2e6109f4023f61d9e0f142f9c8b29b80481fb5b2b4e9a260a",
+            "uid": "ae0043696e974247a5078c0727405319",
+            "username": "niemand"
+        },
+        "service": {
+            "hostname": "schlicht-moebel.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1457587316,
+    "expire_in": 157680000,
+    "prev": "457f329a3c0e641a80feacb4fe3892e333643910e9876424e3d751db9c318a4e",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUm1QVFUYXojVIAwUGlAo5ZoaI9E59/uC8Q2DzpRIA0ukLPfjXLiw7C57Lyy4
+AZGIYx+MBlaCRBM0SQ5YOtPgRIUUDvZhMIhpY2xoJmiDSDg2WNG9jP3rZ+fPmfOe
+53ne53nnPbDiAZOvT1T3qaFNq/kyn2+mBVPupJ/bgwkOqRqL82ClaOlCNgmpmrVU
+kbA4DEAAeRqHUEKSCEkAeCjzOKIh4GQS4IRMQ4lDQIYkLnMiK+CcwAKShbJACbhA
+Io7HacBjMZis2IuQy+lS7JouS3AMLcokApAigExCEiGS4kScECTEQAA4CceBCGmd
+WOxQDYZuTuBVFKs49Jr+sC7Z+w/8/+y7YkmORwCQBM3RiGNInGR4CjCsCBicIQFF
+QM4Aqshl58uQjrYrqIy3S1hNDKYXKxURGXM1gtwHqGKxTRGLtSfLHEhAtlgJ6QJO
+l0NziA6b/l+saU41zuBr1U6D4EaC9b6UVVDskj5MnVGJXKrisGNxUEeKmmJoQ5Ji
+KJYhIB2DoSqn4kJWxUBQDM0C/Rh9UKUuSVIFjEzgHE+IANEk5FkgI14USBkRLIcj
+giBokuAgQBzL0HpoREgMBSWBEwnI8qRhWUXldocurvfS+CIjmFJk57UKF8JqAvb7
+RvqZfHxNy8y+xp6ZAvyD/12+nlvBpgNNTZ7e08Plix2rt6mH+0wxffTz3qm8Lduf
+zow1d237c2d9fmO3I/DXgIezl4+wWYH+gSkLodUDyy/mX15MfMMyWn9z+/zdkxnT
+OR2N7zKpR6w+zdJi3SvVa3O7Hhm4lfnJIC8oF37+zra56N66G6/11za0d91Zaf22
+7Q+P2LLbc+Ixy4XdM9HWZPOYeuziznWJmxcXzHxyU8/ZoOtDlyty/6o7bZ57m4vM
+pg7N1Lr/XlhcFn91T2/nZ6EBafGz+OyKejnl95kzZVnY+vlfMKz7xtDxxI+q96KC
+TQ3ssGeN6Kfxgabio472oceD1lRteOtOzuQobvIPXX8o6sSuJJn0Pf99wqPWjPm6
+565dq2rozIu3uPubYr0jJYkVHyZMNeYNS50R/mfqw061nZWal/WHdI2HlN7MX+VM
+usIOpDWXeJPNL76UPtjazMasSrVQ5f1ebyZz9HBSdmBksryxHFsb3hoU1tLyTM9+
+d0LKyyUnfzi2cuw99xf3UvNtO9rnKtWa8cLwj9vMUV8uZNw+XnTp64nbyZkTR85d
+b0uLT8/p/8D5enn0dO/E5Oy5wj27DkZ19B7cePVu65bUN3/6dO4p2ZumNTyU/mB4
+cMb5iIHRePI359agDabxH8eqLPtc0gshE6/yhWwOypqY6usa+dzSMOjXU7D3yhNN
+zyrRteL7X70ToV7aUdsStvUf
+=LDeT
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/niemand
+
+==================================================================
+
