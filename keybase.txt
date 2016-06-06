@@ -1,25 +1,23 @@
 ==================================================================
-https://keybase.io/niemand
+https://keybase.io/herrjemand
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of https://schlicht-moebel.de
-  * I am niemand (https://keybase.io/niemand) on keybase.
-  * I have a public key with fingerprint 3976 CF4E 0153 0F41 4EE4  59C2 3BDE 7100 9D22 0C16
+  * I am herrjemand (https://keybase.io/herrjemand) on keybase.
+  * I have a public key ASBG32fx3Au5E4a03NO6nCTZ33pmIGnrpEKexrk5sQ30JAo
 
 To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "eldest_kid": "0101a6211dedc1400a1fa2e6109f4023f61d9e0f142f9c8b29b80481fb5b2b4e9a260a",
-            "fingerprint": "3976cf4e01530f414ee459c23bde71009d220c16",
+            "eldest_kid": "012046df67f1dc0bb91386b4dcd3ba9c24d9df7a662069eba4429ec6b939b10df4240a",
             "host": "keybase.io",
-            "key_id": "3bde71009d220c16",
-            "kid": "0101a6211dedc1400a1fa2e6109f4023f61d9e0f142f9c8b29b80481fb5b2b4e9a260a",
-            "uid": "ae0043696e974247a5078c0727405319",
-            "username": "niemand"
+            "kid": "012046df67f1dc0bb91386b4dcd3ba9c24d9df7a662069eba4429ec6b939b10df4240a",
+            "uid": "1975ca1a2f044da342bbcf018046ca19",
+            "username": "herrjemand"
         },
         "service": {
             "hostname": "schlicht-moebel.de",
@@ -28,47 +26,29 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1457587316,
-    "expire_in": 157680000,
-    "prev": "457f329a3c0e641a80feacb4fe3892e333643910e9876424e3d751db9c318a4e",
-    "seqno": 16,
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1465179288,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1465179188,
+        "hash": "79a331a0ed88017a188f357ad3b6aca8f25cbb803fc9f4c05e6a75ef2c3c5671c5eba4bb1b45163d600fbf09d3ec1d1c431fe86317637cfdf8fc1802eeecf2aa",
+        "seqno": 478207
+    },
+    "prev": "0da7d551b409314a971a1f189c2a542cee7c2dfda7a9747e4cd02436fe454b60",
+    "seqno": 13,
     "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: GnuPG v1
-
-owGtUm1QVFUYXojVIAwUGlAo5ZoaI9E59/uC8Q2DzpRIA0ukLPfjXLiw7C57Lyy4
-AZGIYx+MBlaCRBM0SQ5YOtPgRIUUDvZhMIhpY2xoJmiDSDg2WNG9jP3rZ+fPmfOe
-53ne53nnPbDiAZOvT1T3qaFNq/kyn2+mBVPupJ/bgwkOqRqL82ClaOlCNgmpmrVU
-kbA4DEAAeRqHUEKSCEkAeCjzOKIh4GQS4IRMQ4lDQIYkLnMiK+CcwAKShbJACbhA
-Io7HacBjMZis2IuQy+lS7JouS3AMLcokApAigExCEiGS4kScECTEQAA4CceBCGmd
-WOxQDYZuTuBVFKs49Jr+sC7Z+w/8/+y7YkmORwCQBM3RiGNInGR4CjCsCBicIQFF
-QM4Aqshl58uQjrYrqIy3S1hNDKYXKxURGXM1gtwHqGKxTRGLtSfLHEhAtlgJ6QJO
-l0NziA6b/l+saU41zuBr1U6D4EaC9b6UVVDskj5MnVGJXKrisGNxUEeKmmJoQ5Ji
-KJYhIB2DoSqn4kJWxUBQDM0C/Rh9UKUuSVIFjEzgHE+IANEk5FkgI14USBkRLIcj
-giBokuAgQBzL0HpoREgMBSWBEwnI8qRhWUXldocurvfS+CIjmFJk57UKF8JqAvb7
-RvqZfHxNy8y+xp6ZAvyD/12+nlvBpgNNTZ7e08Plix2rt6mH+0wxffTz3qm8Lduf
-zow1d237c2d9fmO3I/DXgIezl4+wWYH+gSkLodUDyy/mX15MfMMyWn9z+/zdkxnT
-OR2N7zKpR6w+zdJi3SvVa3O7Hhm4lfnJIC8oF37+zra56N66G6/11za0d91Zaf22
-7Q+P2LLbc+Ixy4XdM9HWZPOYeuziznWJmxcXzHxyU8/ZoOtDlyty/6o7bZ57m4vM
-pg7N1Lr/XlhcFn91T2/nZ6EBafGz+OyKejnl95kzZVnY+vlfMKz7xtDxxI+q96KC
-TQ3ssGeN6Kfxgabio472oceD1lRteOtOzuQobvIPXX8o6sSuJJn0Pf99wqPWjPm6
-565dq2rozIu3uPubYr0jJYkVHyZMNeYNS50R/mfqw061nZWal/WHdI2HlN7MX+VM
-usIOpDWXeJPNL76UPtjazMasSrVQ5f1ebyZz9HBSdmBksryxHFsb3hoU1tLyTM9+
-d0LKyyUnfzi2cuw99xf3UvNtO9rnKtWa8cLwj9vMUV8uZNw+XnTp64nbyZkTR85d
-b0uLT8/p/8D5enn0dO/E5Oy5wj27DkZ19B7cePVu65bUN3/6dO4p2ZumNTyU/mB4
-cMb5iIHRePI359agDabxH8eqLPtc0gshE6/yhWwOypqY6usa+dzSMOjXU7D3yhNN
-zyrRteL7X70ToV7aUdsStvUf
-=LDeT
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRt9n8dwLuROGtNzTupwk2d96ZiBp66RCnsa5ObEN9CQKp3BheWxvYWTFAv17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNDZkZjY3ZjFkYzBiYjkxMzg2YjRkY2QzYmE5YzI0ZDlkZjdhNjYyMDY5ZWJhNDQyOWVjNmI5MzliMTBkZjQyNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNDZkZjY3ZjFkYzBiYjkxMzg2YjRkY2QzYmE5YzI0ZDlkZjdhNjYyMDY5ZWJhNDQyOWVjNmI5MzliMTBkZjQyNDBhIiwidWlkIjoiMTk3NWNhMWEyZjA0NGRhMzQyYmJjZjAxODA0NmNhMTkiLCJ1c2VybmFtZSI6ImhlcnJqZW1hbmQifSwic2VydmljZSI6eyJob3N0bmFtZSI6InNjaGxpY2h0LW1vZWJlbC5kZSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE2In0sImN0aW1lIjoxNDY1MTc5Mjg4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NjUxNzkxODgsImhhc2giOiI3OWEzMzFhMGVkODgwMTdhMTg4ZjM1N2FkM2I2YWNhOGYyNWNiYjgwM2ZjOWY0YzA1ZTZhNzVlZjJjM2M1NjcxYzVlYmE0YmIxYjQ1MTYzZDYwMGZiZjA5ZDNlYzFkMWM0MzFmZTg2MzE3NjM3Y2ZkZjhmYzE4MDJlZWVjZjJhYSIsInNlcW5vIjo0NzgyMDd9LCJwcmV2IjoiMGRhN2Q1NTFiNDA5MzE0YTk3MWExZjE4OWMyYTU0MmNlZTdjMmRmZGE3YTk3NDdlNGNkMDI0MzZmZTQ1NGI2MCIsInNlcW5vIjoxMywidGFnIjoic2lnbmF0dXJlIn2jc2lnxECCrOK7kCbmqyhNVZyzJ02/d+CJJ0yCaWQGOddAodMsj7rBsLsb6CXKOrczvQyG7d3MKekPCc07XAWufSPU058EqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgcLsupEnLbNRZZ4+97FpfJmCehAbbL97UMyqMr2qzDlyjdGFnzQICp3ZlcnNpb24B
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/niemand
+View my publicly-auditable identity here: https://keybase.io/herrjemand
 
 ==================================================================
-
