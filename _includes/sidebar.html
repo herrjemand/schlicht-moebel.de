@@ -21,13 +21,13 @@
                 {% if page.lang != site.lang and page.lang != null %}
                     <a class="item" href="../">
                         <label>
-                            <span class="schlicht-icon schlicht-lang">{{ site.lang | upcase}}</span>
+                            <span class="schlicht-icon schlicht-lang" title="{{ site.locale[site.lang].in_lang }}">{{ site.lang | upcase}}</span>
                         </label>
                     </a>
                 {% else %}
                     <a class="item" href="en/">
                         <label>
-                            <span class="schlicht-icon schlicht-lang">{{ "EN" | upcase}}</span>
+                            <span class="schlicht-icon schlicht-lang" title="{{ site.locale['en'].in_lang }}">{{ "EN" | upcase}}</span>
                         </label>
                     </a>
                 {% endif %}

@@ -24,6 +24,7 @@ locale:
         imprint     : Impressum
         moto        : "Schlicht, bedeutet, sich auf das Wesentliche beschränken. Rein. Pur. Ungekünstelt und bescheiden. <br>Möbel, die für sich sprechen, die keiner großen Worte bedürfen: <br>Schlicht."
         ddh         : "Design, Entwicklung und Hosting von <a href=\"https://github.com/herrjemand\">@herrjemand</a> und Marcel Müller"
+        in_lang     : Auf Deutsch
 
 
     en:
@@ -38,3 +39,4 @@ locale:
         imprint     : Legal
         moto        : "Schlicht, means to focus on the essential design. Keep it pure.<br>Moderate and unaffected.<br>Furniture that doesn't need explanation, and speaks for itself:<br>Schlicht"
         ddh         : "Design, development and hosting by <a href=\"https://github.com/herrjemand\">@herrjemand</a> and Marcel Müller"
+        in_lang     : In English
